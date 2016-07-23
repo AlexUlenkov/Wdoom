@@ -10,8 +10,10 @@
 		379BB26D1D4416A7000768AA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379BB26C1D4416A7000768AA /* AppKit.framework */; };
 		379BB26F1D4416A7000768AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379BB26E1D4416A7000768AA /* Foundation.framework */; };
 		379BB2731D4416A7000768AA /* WarningDoom.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 379BB2721D4416A7000768AA /* WarningDoom.xcscheme */; };
-		379BB2761D4416A7000768AA /* WarningDoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB2751D4416A7000768AA /* WarningDoom.m */; };
-		379BB2791D4416A8000768AA /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB2781D4416A8000768AA /* NSObject_Extension.m */; };
+		379BB2871D4416F0000768AA /* WDMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379BB2801D4416F0000768AA /* WDMViewController.xib */; };
+		379BB2881D4416F0000768AA /* WDMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB2811D4416F0000768AA /* WDMViewController.m */; };
+		379BB2891D4416F0000768AA /* WDMRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB2831D4416F0000768AA /* WDMRoot.m */; };
+		379BB28A1D4416F0000768AA /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB2851D4416F0000768AA /* NSObject_Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +21,14 @@
 		379BB26C1D4416A7000768AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		379BB26E1D4416A7000768AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		379BB2721D4416A7000768AA /* WarningDoom.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = WarningDoom.xcscheme; path = WarningDoom.xcodeproj/xcshareddata/xcschemes/WarningDoom.xcscheme; sourceTree = SOURCE_ROOT; };
-		379BB2741D4416A7000768AA /* WarningDoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarningDoom.h; sourceTree = "<group>"; };
-		379BB2751D4416A7000768AA /* WarningDoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarningDoom.m; sourceTree = "<group>"; };
-		379BB2771D4416A7000768AA /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
-		379BB2781D4416A8000768AA /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
 		379BB27A1D4416A8000768AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379BB2801D4416F0000768AA /* WDMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDMViewController.xib; sourceTree = "<group>"; };
+		379BB2811D4416F0000768AA /* WDMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMViewController.m; sourceTree = "<group>"; };
+		379BB2821D4416F0000768AA /* WDMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMViewController.h; sourceTree = "<group>"; };
+		379BB2831D4416F0000768AA /* WDMRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMRoot.m; sourceTree = "<group>"; };
+		379BB2841D4416F0000768AA /* WDMRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMRoot.h; sourceTree = "<group>"; };
+		379BB2851D4416F0000768AA /* NSObject_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		379BB2861D4416F0000768AA /* NSObject_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +73,13 @@
 		379BB2701D4416A7000768AA /* WarningDoom */ = {
 			isa = PBXGroup;
 			children = (
-				379BB2741D4416A7000768AA /* WarningDoom.h */,
-				379BB2751D4416A7000768AA /* WarningDoom.m */,
-				379BB2771D4416A7000768AA /* NSObject_Extension.h */,
-				379BB2781D4416A8000768AA /* NSObject_Extension.m */,
+				379BB2801D4416F0000768AA /* WDMViewController.xib */,
+				379BB2811D4416F0000768AA /* WDMViewController.m */,
+				379BB2821D4416F0000768AA /* WDMViewController.h */,
+				379BB2831D4416F0000768AA /* WDMRoot.m */,
+				379BB2841D4416F0000768AA /* WDMRoot.h */,
+				379BB2851D4416F0000768AA /* NSObject_Extension.m */,
+				379BB2861D4416F0000768AA /* NSObject_Extension.h */,
 				379BB27A1D4416A8000768AA /* Info.plist */,
 				379BB2711D4416A7000768AA /* Supporting Files */,
 			);
@@ -143,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				379BB2731D4416A7000768AA /* WarningDoom.xcscheme in Resources */,
+				379BB2871D4416F0000768AA /* WDMViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				379BB2761D4416A7000768AA /* WarningDoom.m in Sources */,
-				379BB2791D4416A8000768AA /* NSObject_Extension.m in Sources */,
+				379BB28A1D4416F0000768AA /* NSObject_Extension.m in Sources */,
+				379BB2891D4416F0000768AA /* WDMRoot.m in Sources */,
+				379BB2881D4416F0000768AA /* WDMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

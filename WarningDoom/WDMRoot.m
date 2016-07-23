@@ -1,19 +1,20 @@
 //
-//  WarningDoom.m
-//  WarningDoom
+//  Warning Doom.m
+//  Warning Doom
 //
-//  Created by ALEXEY ULENKOV on 24.07.16.
+//  Created by ALEXEY ULENKOV on 23.07.16.
 //  Copyright © 2016 Alexey Ulenkov. All rights reserved.
 //
 
-#import "WarningDoom.h"
+#import "WDMRoot.h"
+#import "WDMViewController.h"
 
-@interface WarningDoom()
+@interface WDMRoot ()
 
 @property (nonatomic, strong, readwrite) NSBundle *bundle;
 @end
 
-@implementation WarningDoom
+@implementation WDMRoot
 
 + (instancetype)sharedPlugin
 {
@@ -43,7 +44,7 @@
     NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"Edit"];
     if (menuItem) {
         [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
-        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"Do Action" action:@selector(doMenuAction) keyEquivalent:@""];
+        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"Warning Doom" action:@selector(doMenuAction) keyEquivalent:@""];
         //[actionMenuItem setKeyEquivalentModifierMask:NSAlphaShiftKeyMask | NSControlKeyMask];
         [actionMenuItem setTarget:self];
         [[menuItem submenu] addItem:actionMenuItem];
@@ -53,9 +54,8 @@
 // Sample Action, for menu item:
 - (void)doMenuAction
 {
-    NSAlert *alert = [[NSAlert alloc] init];
-    [alert setMessageText:@"Hello, World"];
-    [alert runModal];
+  WDMViewController *controller = [[WDMViewController alloc] initWithNibName:@"WDMViewController" bundle:sharedPlugin.bundle];
+  [controller loadView];
 }
 
 - (void)dealloc

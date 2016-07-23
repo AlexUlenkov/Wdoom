@@ -1,8 +1,8 @@
 //
 //  NSObject_Extension.h
-//  WarningDoom
+//  Warning Doom
 //
-//  Created by ALEXEY ULENKOV on 24.07.16.
+//  Created by ALEXEY ULENKOV on 23.07.16.
 //  Copyright © 2016 Alexey Ulenkov. All rights reserved.
 //
 

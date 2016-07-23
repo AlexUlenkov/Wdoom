@@ -1,14 +1,14 @@
 //
 //  NSObject_Extension.m
-//  WarningDoom
+//  Warning Doom
 //
-//  Created by ALEXEY ULENKOV on 24.07.16.
+//  Created by ALEXEY ULENKOV on 23.07.16.
 //  Copyright © 2016 Alexey Ulenkov. All rights reserved.
 //
 
 
 #import "NSObject_Extension.h"
-#import "WarningDoom.h"
+#import "WDMRoot.h"
 
 @implementation NSObject (Xcode_Plugin_Template_Extension)
 
@@ -18,7 +18,7 @@
     NSString *currentApplicationName = [[NSBundle mainBundle] infoDictionary][@"CFBundleName"];
     if ([currentApplicationName isEqual:@"Xcode"]) {
         dispatch_once(&onceToken, ^{
-            sharedPlugin = [[WarningDoom alloc] initWithBundle:plugin];
+            sharedPlugin = [[WDMRoot alloc] initWithBundle:plugin];
         });
     }
 }

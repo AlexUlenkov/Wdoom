@@ -6,7 +6,7 @@
 //  Copyright © 2016 Alexey Ulenkov. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @interface NSObject (Xcode_Plugin_Template_Extension)
 

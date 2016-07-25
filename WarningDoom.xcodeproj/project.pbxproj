@@ -7,28 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37050E441D44AFE200D4513C /* WDMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 37050E431D44AFE200D4513C /* WDMButton.m */; };
+		372FAFDE1D442B2A00F6DCA9 /* WDMAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372FAFDC1D442B2A00F6DCA9 /* WDMAboutWindowController.m */; };
+		372FAFDF1D442B2A00F6DCA9 /* WDMAboutWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 372FAFDD1D442B2A00F6DCA9 /* WDMAboutWindowController.xib */; };
+		373958F21D45752000B79EBE /* About.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 373958F11D45752000B79EBE /* About.rtf */; };
+		376E94791D44DD6000AEC2AF /* WDMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 376E94771D44DD6000AEC2AF /* WDMModel.m */; };
 		379BB26D1D4416A7000768AA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379BB26C1D4416A7000768AA /* AppKit.framework */; };
 		379BB26F1D4416A7000768AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379BB26E1D4416A7000768AA /* Foundation.framework */; };
 		379BB2731D4416A7000768AA /* WarningDoom.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 379BB2721D4416A7000768AA /* WarningDoom.xcscheme */; };
-		379BB2871D4416F0000768AA /* WDMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 379BB2801D4416F0000768AA /* WDMViewController.xib */; };
-		379BB2881D4416F0000768AA /* WDMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB2811D4416F0000768AA /* WDMViewController.m */; };
 		379BB2891D4416F0000768AA /* WDMRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB2831D4416F0000768AA /* WDMRoot.m */; };
 		379BB28A1D4416F0000768AA /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB2851D4416F0000768AA /* NSObject_Extension.m */; };
+		37AE75841D441E7F004B13A3 /* WDMWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AE75821D441E7F004B13A3 /* WDMWindowController.m */; };
+		37AE75851D441E7F004B13A3 /* WDMWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37AE75831D441E7F004B13A3 /* WDMWindowController.xib */; };
+		37EDAD811D443C2E00B98D0F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EDAD801D443C2E00B98D0F /* Media.xcassets */; };
+		37EDAD831D443E3000B98D0F /* DooM.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37EDAD821D443E3000B98D0F /* DooM.ttf */; };
+		37EDAD851D443EBE00B98D0F /* AmazDooMLeft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37EDAD841D443EBE00B98D0F /* AmazDooMLeft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37050E421D44AFE200D4513C /* WDMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMButton.h; sourceTree = "<group>"; };
+		37050E431D44AFE200D4513C /* WDMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMButton.m; sourceTree = "<group>"; };
+		372FAFDB1D442B2A00F6DCA9 /* WDMAboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMAboutWindowController.h; sourceTree = "<group>"; };
+		372FAFDC1D442B2A00F6DCA9 /* WDMAboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMAboutWindowController.m; sourceTree = "<group>"; };
+		372FAFDD1D442B2A00F6DCA9 /* WDMAboutWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDMAboutWindowController.xib; sourceTree = "<group>"; };
+		373958F11D45752000B79EBE /* About.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = About.rtf; path = ../About.rtf; sourceTree = "<group>"; };
+		376E94771D44DD6000AEC2AF /* WDMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMModel.m; sourceTree = "<group>"; };
+		376E94781D44DD6000AEC2AF /* WDMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMModel.h; sourceTree = "<group>"; };
 		379BB2691D4416A7000768AA /* WarningDoom.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarningDoom.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		379BB26C1D4416A7000768AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		379BB26E1D4416A7000768AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		379BB2721D4416A7000768AA /* WarningDoom.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = WarningDoom.xcscheme; path = WarningDoom.xcodeproj/xcshareddata/xcschemes/WarningDoom.xcscheme; sourceTree = SOURCE_ROOT; };
 		379BB27A1D4416A8000768AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		379BB2801D4416F0000768AA /* WDMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDMViewController.xib; sourceTree = "<group>"; };
-		379BB2811D4416F0000768AA /* WDMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMViewController.m; sourceTree = "<group>"; };
-		379BB2821D4416F0000768AA /* WDMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMViewController.h; sourceTree = "<group>"; };
 		379BB2831D4416F0000768AA /* WDMRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMRoot.m; sourceTree = "<group>"; };
 		379BB2841D4416F0000768AA /* WDMRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMRoot.h; sourceTree = "<group>"; };
 		379BB2851D4416F0000768AA /* NSObject_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
 		379BB2861D4416F0000768AA /* NSObject_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		37AE75811D441E7F004B13A3 /* WDMWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMWindowController.h; sourceTree = "<group>"; };
+		37AE75821D441E7F004B13A3 /* WDMWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMWindowController.m; sourceTree = "<group>"; };
+		37AE75831D441E7F004B13A3 /* WDMWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDMWindowController.xib; sourceTree = "<group>"; };
+		37EDAD801D443C2E00B98D0F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		37EDAD821D443E3000B98D0F /* DooM.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = DooM.ttf; path = ../Fonts/DooM.ttf; sourceTree = "<group>"; };
+		37EDAD841D443EBE00B98D0F /* AmazDooMLeft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AmazDooMLeft.ttf; path = ../Fonts/AmazDooMLeft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +63,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37668E211D4698230015DB65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				376E94781D44DD6000AEC2AF /* WDMModel.h */,
+				376E94771D44DD6000AEC2AF /* WDMModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		37668E221D4698390015DB65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				379BB27A1D4416A8000768AA /* Info.plist */,
+				373958F11D45752000B79EBE /* About.rtf */,
+				37EDAD841D443EBE00B98D0F /* AmazDooMLeft.ttf */,
+				37EDAD821D443E3000B98D0F /* DooM.ttf */,
+				37EDAD801D443C2E00B98D0F /* Media.xcassets */,
+				379BB2721D4416A7000768AA /* WarningDoom.xcscheme */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		37668E231D46987D0015DB65 /* Template Extension */ = {
+			isa = PBXGroup;
+			children = (
+				379BB2861D4416F0000768AA /* NSObject_Extension.h */,
+				379BB2851D4416F0000768AA /* NSObject_Extension.m */,
+			);
+			name = "Template Extension";
+			sourceTree = "<group>";
+		};
+		37668E241D4698A20015DB65 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				37050E421D44AFE200D4513C /* WDMButton.h */,
+				37050E431D44AFE200D4513C /* WDMButton.m */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		37668E251D4698B60015DB65 /* Root Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37AE75811D441E7F004B13A3 /* WDMWindowController.h */,
+				37AE75821D441E7F004B13A3 /* WDMWindowController.m */,
+				37AE75831D441E7F004B13A3 /* WDMWindowController.xib */,
+			);
+			name = "Root Controller";
+			sourceTree = "<group>";
+		};
+		37668E261D4698DC0015DB65 /* About Controller */ = {
+			isa = PBXGroup;
+			children = (
+				372FAFDB1D442B2A00F6DCA9 /* WDMAboutWindowController.h */,
+				372FAFDC1D442B2A00F6DCA9 /* WDMAboutWindowController.m */,
+				372FAFDD1D442B2A00F6DCA9 /* WDMAboutWindowController.xib */,
+			);
+			name = "About Controller";
+			sourceTree = "<group>";
+		};
 		379BB2601D4416A7000768AA = {
 			isa = PBXGroup;
 			children = (
@@ -73,25 +152,16 @@
 		379BB2701D4416A7000768AA /* WarningDoom */ = {
 			isa = PBXGroup;
 			children = (
-				379BB2801D4416F0000768AA /* WDMViewController.xib */,
-				379BB2811D4416F0000768AA /* WDMViewController.m */,
-				379BB2821D4416F0000768AA /* WDMViewController.h */,
-				379BB2831D4416F0000768AA /* WDMRoot.m */,
 				379BB2841D4416F0000768AA /* WDMRoot.h */,
-				379BB2851D4416F0000768AA /* NSObject_Extension.m */,
-				379BB2861D4416F0000768AA /* NSObject_Extension.h */,
-				379BB27A1D4416A8000768AA /* Info.plist */,
-				379BB2711D4416A7000768AA /* Supporting Files */,
+				379BB2831D4416F0000768AA /* WDMRoot.m */,
+				37668E211D4698230015DB65 /* Model */,
+				37668E251D4698B60015DB65 /* Root Controller */,
+				37668E261D4698DC0015DB65 /* About Controller */,
+				37668E241D4698A20015DB65 /* Buttons */,
+				37668E231D46987D0015DB65 /* Template Extension */,
+				37668E221D4698390015DB65 /* Resources */,
 			);
 			path = WarningDoom;
-			sourceTree = "<group>";
-		};
-		379BB2711D4416A7000768AA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				379BB2721D4416A7000768AA /* WarningDoom.xcscheme */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +221,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				379BB2731D4416A7000768AA /* WarningDoom.xcscheme in Resources */,
-				379BB2871D4416F0000768AA /* WDMViewController.xib in Resources */,
+				37EDAD831D443E3000B98D0F /* DooM.ttf in Resources */,
+				37AE75851D441E7F004B13A3 /* WDMWindowController.xib in Resources */,
+				37EDAD851D443EBE00B98D0F /* AmazDooMLeft.ttf in Resources */,
+				37EDAD811D443C2E00B98D0F /* Media.xcassets in Resources */,
+				372FAFDF1D442B2A00F6DCA9 /* WDMAboutWindowController.xib in Resources */,
+				373958F21D45752000B79EBE /* About.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,9 +237,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37050E441D44AFE200D4513C /* WDMButton.m in Sources */,
+				372FAFDE1D442B2A00F6DCA9 /* WDMAboutWindowController.m in Sources */,
+				376E94791D44DD6000AEC2AF /* WDMModel.m in Sources */,
+				37AE75841D441E7F004B13A3 /* WDMWindowController.m in Sources */,
 				379BB28A1D4416F0000768AA /* NSObject_Extension.m in Sources */,
 				379BB2891D4416F0000768AA /* WDMRoot.m in Sources */,
-				379BB2881D4416F0000768AA /* WDMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +335,18 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.fakeboss.WarningDoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = (
+					"-Werror",
+					"-Wextra",
+					"-Wall",
+					"-Wfloat-equal",
+					"-Wimplicit-retain-self",
+					"-Wnewline-eof",
+					"-Wshadow",
+					"-Wsign-compare",
+					"-Wundef",
+					"-Weverything",
+				);
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
@@ -272,6 +362,18 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.fakeboss.WarningDoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = (
+					"-Werror",
+					"-Wextra",
+					"-Wall",
+					"-Wfloat-equal",
+					"-Wimplicit-retain-self",
+					"-Wnewline-eof",
+					"-Wshadow",
+					"-Wsign-compare",
+					"-Wundef",
+					"-Weverything",
+				);
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
@@ -295,6 +397,7 @@
 				379BB27F1D4416A8000768AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

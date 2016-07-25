@@ -43,6 +43,11 @@
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSPrincipalClass</key>
 	<string>WarningDoom</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AmazDooMLeft.ttf</string>
+		<string>DooM.ttf</string>
+	</array>
 	<key>XC4Compatible</key>
 	<true/>
 	<key>XCPluginHasUI</key>

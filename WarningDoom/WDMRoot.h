@@ -6,7 +6,8 @@
 //  Copyright © 2016 Alexey Ulenkov. All rights reserved.
 //
 
-#import <AppKit/AppKit.h>
+@import AppKit;
+@import Cocoa;
 
 @class WDMRoot;
 

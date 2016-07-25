@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WarningDoom.xcodeproj">
+      location = "self:/Users/fakeboss/Documents/WarningDoom/Wdoom.xcodeproj">
    </FileRef>
 </Workspace>

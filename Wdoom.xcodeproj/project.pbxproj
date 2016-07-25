@@ -14,7 +14,6 @@
 		376E94791D44DD6000AEC2AF /* WDMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 376E94771D44DD6000AEC2AF /* WDMModel.m */; };
 		379BB26D1D4416A7000768AA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379BB26C1D4416A7000768AA /* AppKit.framework */; };
 		379BB26F1D4416A7000768AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379BB26E1D4416A7000768AA /* Foundation.framework */; };
-		379BB2731D4416A7000768AA /* WarningDoom.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 379BB2721D4416A7000768AA /* WarningDoom.xcscheme */; };
 		379BB2891D4416F0000768AA /* WDMRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB2831D4416F0000768AA /* WDMRoot.m */; };
 		379BB28A1D4416F0000768AA /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 379BB2851D4416F0000768AA /* NSObject_Extension.m */; };
 		37AE75841D441E7F004B13A3 /* WDMWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AE75821D441E7F004B13A3 /* WDMWindowController.m */; };
@@ -33,10 +32,9 @@
 		373958F11D45752000B79EBE /* About.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = About.rtf; path = ../About.rtf; sourceTree = "<group>"; };
 		376E94771D44DD6000AEC2AF /* WDMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMModel.m; sourceTree = "<group>"; };
 		376E94781D44DD6000AEC2AF /* WDMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMModel.h; sourceTree = "<group>"; };
-		379BB2691D4416A7000768AA /* WarningDoom.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarningDoom.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		379BB2691D4416A7000768AA /* Wdoom.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wdoom.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		379BB26C1D4416A7000768AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		379BB26E1D4416A7000768AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		379BB2721D4416A7000768AA /* WarningDoom.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = WarningDoom.xcscheme; path = WarningDoom.xcodeproj/xcshareddata/xcschemes/WarningDoom.xcscheme; sourceTree = SOURCE_ROOT; };
 		379BB27A1D4416A8000768AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		379BB2831D4416F0000768AA /* WDMRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDMRoot.m; sourceTree = "<group>"; };
 		379BB2841D4416F0000768AA /* WDMRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDMRoot.h; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				37EDAD841D443EBE00B98D0F /* AmazDooMLeft.ttf */,
 				37EDAD821D443E3000B98D0F /* DooM.ttf */,
 				37EDAD801D443C2E00B98D0F /* Media.xcassets */,
-				379BB2721D4416A7000768AA /* WarningDoom.xcscheme */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -126,7 +123,7 @@
 		379BB2601D4416A7000768AA = {
 			isa = PBXGroup;
 			children = (
-				379BB2701D4416A7000768AA /* WarningDoom */,
+				379BB2701D4416A7000768AA /* Wdoom */,
 				379BB26B1D4416A7000768AA /* Frameworks */,
 				379BB26A1D4416A7000768AA /* Products */,
 			);
@@ -135,7 +132,7 @@
 		379BB26A1D4416A7000768AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				379BB2691D4416A7000768AA /* WarningDoom.xcplugin */,
+				379BB2691D4416A7000768AA /* Wdoom.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,7 +146,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		379BB2701D4416A7000768AA /* WarningDoom */ = {
+		379BB2701D4416A7000768AA /* Wdoom */ = {
 			isa = PBXGroup;
 			children = (
 				379BB2841D4416F0000768AA /* WDMRoot.h */,
@@ -161,15 +158,16 @@
 				37668E231D46987D0015DB65 /* Template Extension */,
 				37668E221D4698390015DB65 /* Resources */,
 			);
+			name = Wdoom;
 			path = WarningDoom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		379BB2681D4416A7000768AA /* WarningDoom */ = {
+		379BB2681D4416A7000768AA /* Wdoom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 379BB27D1D4416A8000768AA /* Build configuration list for PBXNativeTarget "WarningDoom" */;
+			buildConfigurationList = 379BB27D1D4416A8000768AA /* Build configuration list for PBXNativeTarget "Wdoom" */;
 			buildPhases = (
 				379BB2651D4416A7000768AA /* Sources */,
 				379BB2661D4416A7000768AA /* Resources */,
@@ -179,9 +177,9 @@
 			);
 			dependencies = (
 			);
-			name = WarningDoom;
+			name = Wdoom;
 			productName = WarningDoom;
-			productReference = 379BB2691D4416A7000768AA /* WarningDoom.xcplugin */;
+			productReference = 379BB2691D4416A7000768AA /* Wdoom.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +196,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 379BB2641D4416A7000768AA /* Build configuration list for PBXProject "WarningDoom" */;
+			buildConfigurationList = 379BB2641D4416A7000768AA /* Build configuration list for PBXProject "Wdoom" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -210,7 +208,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				379BB2681D4416A7000768AA /* WarningDoom */,
+				379BB2681D4416A7000768AA /* Wdoom */,
 			);
 		};
 /* End PBXProject section */
@@ -220,7 +218,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				379BB2731D4416A7000768AA /* WarningDoom.xcscheme in Resources */,
 				37EDAD831D443E3000B98D0F /* DooM.ttf in Resources */,
 				37AE75851D441E7F004B13A3 /* WDMWindowController.xib in Resources */,
 				37EDAD851D443EBE00B98D0F /* AmazDooMLeft.ttf in Resources */,
@@ -334,19 +331,19 @@
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.fakeboss.WarningDoom;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Wdoom;
 				WARNING_CFLAGS = (
-					"-Werror",
-					"-Wextra",
-					"-Wall",
-					"-Wfloat-equal",
+					"-Werror", 
+					"-Wextra", 
+					"-Wall", 
+					"-Wfloat-equal", 
 					"-Wimplicit-retain-self",
 					"-Wnewline-eof",
 					"-Wshadow",
 					"-Wsign-compare",
 					"-Wundef",
 					"-Weverything",
-				);
+					);
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
@@ -361,19 +358,19 @@
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.fakeboss.WarningDoom;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Wdoom;
 				WARNING_CFLAGS = (
-					"-Werror",
-					"-Wextra",
-					"-Wall",
-					"-Wfloat-equal",
+					"-Werror", 
+					"-Wextra", 
+					"-Wall", 
+					"-Wfloat-equal", 
 					"-Wimplicit-retain-self",
 					"-Wnewline-eof",
 					"-Wshadow",
 					"-Wsign-compare",
 					"-Wundef",
 					"-Weverything",
-				);
+					);
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
@@ -381,7 +378,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		379BB2641D4416A7000768AA /* Build configuration list for PBXProject "WarningDoom" */ = {
+		379BB2641D4416A7000768AA /* Build configuration list for PBXProject "Wdoom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				379BB27B1D4416A8000768AA /* Debug */,
@@ -390,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		379BB27D1D4416A8000768AA /* Build configuration list for PBXNativeTarget "WarningDoom" */ = {
+		379BB27D1D4416A8000768AA /* Build configuration list for PBXNativeTarget "Wdoom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				379BB27E1D4416A8000768AA /* Debug */,

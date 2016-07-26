@@ -6,7 +6,7 @@ Xcode plugin for the painful coding. Developed on nightmare level.
 ## Installation
 Clone and build. Plugin will be built and installed to /Library/Application Support/Developer/Shared/Xcode/Plug-ins.
 
-**Soon in Alcatraz**
+**Available in Alcatraz packege manager.**
 ## Сompatibility
 Xcode 7.3.1
 ## About

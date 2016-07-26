@@ -11,6 +11,7 @@ Clone and build. Plugin will be built and installed to /Library/Application Supp
 Xcode 7.3.1
 ## About
 Choose difficulty and click apply. Plugin set "Other Warnings Flags" in Build Settings.
+"Pods" and "Carthage" .xcodeproj are ignored.
 ###I'm too young to die
 No additional warnings are activated.
 ###Hey, not to rough

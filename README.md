@@ -7,7 +7,7 @@ Xcode plugin for the painful coding. Developed on nightmare level.
 Clone and build. Plugin will be built and installed to /Library/Application Support/Developer/Shared/Xcode/Plug-ins.
 **Available in Alcatraz packege manager.**
 ## Usage
-Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>t</kbd> to open the Wdoom window.
+Open any project and use <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>d</kbd> to open the Wdoom window.
 ## Сompatibility
 Xcode 7.3.1
 ## About

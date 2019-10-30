@@ -13,9 +13,9 @@ Xcode 7.3.1
 ## About
 Choose difficulty and click apply. Plugin set "Other Warnings Flags" in Build Settings.
 "Pods" and "Carthage" .xcodeproj are ignored.
-###I'm too young to die
+### I'm too young to die
 No additional warnings are activated.
-###Hey, not to rough
+### Hey, not to rough
 Some useful warnings.
 
 *-Wfloat-equal*
@@ -27,7 +27,7 @@ Some useful warnings.
 *-Wsign-compare*
 
 *-Wundef*
-###Ultra-Violence
+### Ultra-Violence
 More violence.
 
 *-Wall*
@@ -45,7 +45,7 @@ More violence.
 *-Wundef*
 
 *-Weverything*
-###Nightmare!
+### Nightmare!
 Maximum hardcore.
 
 *-Werror*
